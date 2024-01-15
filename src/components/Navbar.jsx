@@ -1,12 +1,12 @@
 import {
-  Home,
-  Building2,
-  HeartPulse,
-  Trophy,
-  Cpu,
-  Clapperboard,
-  Search,
-} from "lucide-react";
+  LuHome,
+  LuBuilding2,
+  LuHeartPulse,
+  LuTrophy,
+  LuCpu,
+  LuClapperboard,
+  LuSearch,
+} from "react-icons/lu";
 import Logo from "../assets/Images/logo.png";
 
 const Navbar = () => {
@@ -23,36 +23,36 @@ const Navbar = () => {
             <ul className="flex flex-row gap-14">
               <li>
                 <a href="" className="flex flex-row gap-3">
-                  <Home size={20} strokeWidth={1.5} /> Home
+                  <LuHome size={20} strokeWidth={1.5} /> Home
                 </a>
               </li>
               <li>
                 <a href="" className="flex flex-row gap-3">
-                  <Building2 size={20} strokeWidth={1.5} />
+                  <LuBuilding2 size={20} strokeWidth={1.5} />
                   Business
                 </a>
               </li>
               <li>
                 <a href="" className="flex flex-row gap-3">
-                  <HeartPulse size={20} strokeWidth={1.5} />
+                  <LuHeartPulse size={20} strokeWidth={1.5} />
                   Health
                 </a>
               </li>
               <li>
                 <a href="" className="flex flex-row gap-3">
-                  <Trophy size={20} strokeWidth={1.5} />
+                  <LuTrophy size={20} strokeWidth={1.5} />
                   Sports
                 </a>
               </li>
               <li>
                 <a href="" className="flex flex-row gap-3">
-                  <Cpu size={20} strokeWidth={1.5} />
+                  <LuCpu size={20} strokeWidth={1.5} />
                   Technology
                 </a>
               </li>
               <li>
                 <a href="" className="flex flex-row gap-3">
-                  <Clapperboard size={20} strokeWidth={1.5} />
+                  <LuClapperboard size={20} strokeWidth={1.5} />
                   Entertainment
                 </a>
               </li>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 placeholder="Enter search item"
               />
               <span className="absolute end-2">
-                <Search size={20} strokeWidth={1.5} />
+                <LuSearch size={20} strokeWidth={1.5} />
               </span>
             </form>
           </div>
